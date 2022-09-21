@@ -1,5 +1,5 @@
-const firebase = require("firebase");
-const firebaseConfig = {
+const firebase = require('firebase');
+firebaseConfig = {
     apiKey: "AIzaSyA-nMhjm8Z7JEbxNgtVt6r2c_aOriCKztQ",
     authDomain: "stock-data-7658e.firebaseapp.com",
     projectId: "stock-data-7658e",
@@ -11,4 +11,4 @@ const firebaseConfig = {
 firebase.initializeAoo(firebaseConfig)
 const db = firebase.firebase();
 // const User = db.collection("users");
-module.exports = db;
+module.exports = User;
