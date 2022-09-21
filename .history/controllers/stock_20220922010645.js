@@ -1,4 +1,4 @@
-const admin = require('../admin.js');
+const admin = require('../admin.js')
 
 let login = async(req, res) => {
     let reqObj = req.body;
